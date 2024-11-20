@@ -10,12 +10,6 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
-
-img {
-    width: 200px;
-    height: 200px;
-}
-
 header {
     color: whitesmoke;
     text-align: center;
@@ -29,4 +23,9 @@ article {
     background-color: grey;
     color: black;
     padding: 5px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
