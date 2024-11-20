@@ -7,7 +7,7 @@ body {
     background-repeat: no-repeat;
     margin: auto;
     height: 100vh;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Bookman Old Style", Georgia, serif;
 }
 
 header {
@@ -21,6 +21,7 @@ article {
     border: 2px solid white;
     border-radius: 5px;
     background-color: grey;
+    box-shadow: 0px 0px 15px whitesmoke;
     color: black;
     padding: 5px;
 }
@@ -50,11 +51,13 @@ a {
     border: 2px solid white;
     border-radius: 5px;
     padding: 10px;
+    font-weight: bold;
 }
 
 a:hover {
     color: yellow;
     border: 2px solid yellow;
+    box-shadow: 0px 0px 10px yellow;
 }
 
 .no-border {
@@ -64,4 +67,9 @@ a:hover {
 .no-border:hover {
     color: none;
     border: none;
+    box-shadow: none;
+}
+
+hr {
+    margin: 15px;
 }
