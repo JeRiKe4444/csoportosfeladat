@@ -16,6 +16,7 @@ header {
 }
 
 article {
+    height: 50%;
     margin: auto;
     text-align: center;
     border: 2px solid white;
@@ -24,6 +25,12 @@ article {
     box-shadow: 0px 0px 15px whitesmoke;
     color: black;
     padding: 5px;
+    background-image: url(Kepek/lambo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 50vh;
 }
 
 img {
@@ -71,5 +78,16 @@ a:hover {
 }
 
 hr {
-    margin: 15px;
+    margin: 20px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color: white;
+    text-align: center;
 }
