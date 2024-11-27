@@ -1,0 +1,9 @@
+body {
+    background-image: url(Kepek/tortenetbckground.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    height: 100vh;
+    color: whitesmoke;
+    font-family: 'Monaco', 'Courier New', monospace;
+}
